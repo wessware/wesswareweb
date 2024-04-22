@@ -32,6 +32,14 @@ body {
     letter-spacing: 8px;
     cursor: pointer;
 }
+/* .logo i {
+    font-size: 10px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 2px;
+    cursor: pointer;
+} */
 .navbar a {
     font-size: 18px;
     color: #ededed;
