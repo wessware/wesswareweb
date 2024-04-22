@@ -292,6 +292,10 @@ body {
   -moz-transition: 3s;
   -ms-transition: 3s;
   -o-transition: 3s;
+  animation: manipActiveHover .1s forwards;
+  -webkit-animation: manipActiveHover .1s forwards;
+  animation-delay: 4s;
+  pointer-events: none;
 }
 .home-img-hover:hover {
     background: #081b29;
@@ -303,16 +307,21 @@ body {
     top: 0;
     right: 0;
     width: 100%;
-    height: 100%;
+    height: 120%;
     background: #081b29;
-    animation: showRight 5s ease forwards;
-    -webkit-animation: showRight 5s ease forwards;
+    animation: showRight 4s ease forwards;
+    -webkit-animation: showRight 4s ease forwards;
     animation-delay: 4s;
-    z-index: 2;
+    z-index: 50;
 }
 
 @keyframes showRight {
     100% {
         width: 0;
+    }
+}
+@keyframes manipActiveHover {
+    100% {
+        pointer-events: auto;
     }
 }
