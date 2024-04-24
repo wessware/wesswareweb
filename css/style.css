@@ -84,6 +84,12 @@ body {
     font-weight: 700;
     line-height: 1.2;
 }
+.home-content h4 {
+    position: relative;
+    font-size: 24px;
+    font-weight: 400;
+    color: #00abf0;
+}
 .home-content h1::before {
     content: '';
     position: absolute;
